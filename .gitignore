@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+*.egg-info/
+
+# --- Node (build_docx.js used local install) ---
+node_modules/
+package-lock.json
+
+# --- macOS / Windows ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Personal documents (do NOT commit) ---
+자소서_*.docx
+cover_letter_*.docx
+resume_*.docx
+이력서*.docx
+
+# --- Office temp files ---
+~$*
